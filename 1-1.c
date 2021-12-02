@@ -4,8 +4,7 @@ int main(void)
 	int count=0,i,temp=0,t;
 	while(scanf("%d",&i)!=EOF)
 	{
-		if(temp&&temp<i)
-			count++;
+		count+=temp&&temp<i;
 		temp=i;
 	}
 	printf("%d",count);
