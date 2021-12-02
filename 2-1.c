@@ -5,7 +5,7 @@ int main(void)
 	char cmd[8];
 	while(scanf("%s %d",cmd,&i)!=EOF)
 	{
-		if(cmd[0]=='f') x+=i;
+		if(cmd[0]=='f') x+=i; // Here I'm lazy, just do not want to compare strings
 		else if(cmd[0]=='d') y+=i;
 		else if(cmd[0]=='u') y-=i;
 	}
