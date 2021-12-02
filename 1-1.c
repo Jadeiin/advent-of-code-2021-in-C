@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-	int count=0,i,temp=0,t;
+	int count=0,i,temp=0;
 	while(scanf("%d",&i)!=EOF)
 	{
 		count+=temp&&temp<i;
